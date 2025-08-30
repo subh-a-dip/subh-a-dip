@@ -69,6 +69,36 @@ motto: "Building the future, one algorithm at a time!"
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
+<h2 align="center">🎮 Fun Zone - Interactive Games 🎮</h2>
+
+<div align="center">
+  <h3>🔥 Take a Break & Play Some Games! 🔥</h3>
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+<h4>🐍 Snake Game</h4>
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200" height="150" alt="Snake Game" />
+</td>
+<td align="center">
+<h4>🎲 Tetris</h4>
+<img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="200" height="150" alt="Tetris Game" />
+</td>
+<td align="center">
+<h4>🎯 Pac-Man</h4>
+<img src="https://media.giphy.com/media/NVBR6cLvUjV9C/giphy.gif" width="200" height="150" alt="Pac-Man Game" />
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <h4>🎮 More Retro Games Coming Soon! 🎮</h4>
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100" />
+</div>
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
 <h2 align="center">🛠️ My Arsenal of Technologies 🛠️</h2>
 
 <div align="center">
@@ -192,15 +222,7 @@ motto: "Building the future, one algorithm at a time!"
   <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/cc4fe88c-7f7a-41d8-a25e-8bc6ce34e46d" width="100%" height="5" />
 </div>
 
-<h2 align="center">📈 Contribution Graph 📈</h2>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=subh-a-dip&custom_title=Subhadip's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7c3aed&line=00b4d8&point=7c3aed&area=true&hide_border=true" width="100%" alt="Activity Graph" />
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2&section=footer&text=&fontSize=42&fontColor=fff" width="100%"/>
-</div>
 
 <h2 align="center">🤝 Let's Connect & Build Something Amazing 🤝</h2>
 
