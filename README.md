@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=🚀+Welcome+to+My+Digital+Universe+🚀;I'm+Subhadip+Bera+⚡;BTech+CSE+(AI)+Student+🤖;Full+Stack+Developer+💻;AI+%26+ML+Enthusiast+🧠;Building+the+Future+with+Code+✨" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=🚀+Welcome+to+My+Digital+Universe+🚀;I'm+Subhadip+Bera+⚡;B.Tech+CSE+(AI)+Student+🤖;Full+Stack+Developer+💻;AI+%26+ML+Enthusiast+🧠;Building+the+Future+with+Code+✨" alt="Typing SVG" />
 </h1>
 
 <div align="center">
@@ -65,6 +65,46 @@ fun_fact: "I turn coffee into code and dreams into reality! ☕→💻→🚀"
 motto: "Building the future, one algorithm at a time!"
 ```
 
+</div>
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
+<h2 align="center">🎮 Fun Zone - Interactive Games 🎮</h2>
+
+<div align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/7d484dc9-68a9-4ee6-a767-aea59035c12d" width="100%" height="5" />
+</div>
+
+<div align="center">
+  <h3>🔥 Take a Break & Play Some Games! 🔥</h3>
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+<h4>🐍 Snake Game</h4>
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="200" height="150" alt="Snake Game" />
+</td>
+<td align="center">
+<h4>🎲 Tetris</h4>
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-68d8f27c4d89" width="200" height="150" alt="Tetris Game" />
+</td>
+<td align="center">
+<h4>🎯 Pac-Man</h4>
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="200" height="150" alt="Pac-Man Game" />
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/cc4fe88c-7f7a-41d8-a25e-8bc6ce34e46d" width="100%" height="3" />
+</div>
+
+<div align="center">
+  <h4>🎮 More Retro Games Coming Soon! 🎮</h4>
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="80" />
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/80728820-e06b-4f96-9c9e-9df46f0cc0a5" width="300" height="100" />
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="80" />
 </div>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
