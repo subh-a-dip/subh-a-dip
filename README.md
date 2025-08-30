@@ -19,7 +19,13 @@
 <h2 align="center">🚀 About This Digital Architect 🚀</h2>
 
 <div align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/80728820-e06b-4f96-9c9e-9df46f0cc0a5" width="600" height="300" />
+  <img src="./pictureofme.jpg" width="300" height="300" style="border-radius: 50%; border: 5px solid #00D9FF; box-shadow: 0 0 20px #00D9FF;" alt="It's Me - Subhadip Bera" />
+  <br>
+  <h3 style="color: #00D9FF; margin-top: 10px;">✨ It's Me ✨</h3>
+</div>
+
+<div align="center">
+  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/80728820-e06b-4f96-9c9e-9df46f0cc0a5" width="600" height="200" />
 </div>
 
 <table align="center">
