@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=🚀+Welcome+to+My+Digital+Universe+🚀;I'm+Subhadip+Bera+⚡;B.Tech+CSE+(AI)+Student+🤖;Full+Stack+Developer+💻;AI+%26+ML+Enthusiast+🧠;Building+the+Future+with+Code+✨" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&pause=1000&color=9D4EDD&center=true&vCenter=true&width=600&lines=🚀+Welcome+to+My+Digital+Universe+🚀;I+am+Subhadip+Bera+⚡;B.Tech+CSE+(AI)+Student+🤖;Full+Stack+Developer+💻;AI+%26+ML+Enthusiast+🧠;Building+the+Future+with+Code+✨" alt="Typing SVG" />
 </h1>
 
 <div align="center">
@@ -83,15 +83,15 @@ motto: "Building the future, one algorithm at a time!"
 <tr>
 <td align="center">
 <h4>🐍 Snake Game</h4>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/29fd6286-4e7b-4d6c-818f-c4765d5e39a9" width="200" height="150" alt="Snake Game" />
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200" height="150" alt="Snake Game" />
 </td>
 <td align="center">
 <h4>🎲 Tetris</h4>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/67f477ed-6624-42da-99f0-68d8f27c4d89" width="200" height="150" alt="Tetris Game" />
+<img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="200" height="150" alt="Tetris Game" />
 </td>
 <td align="center">
 <h4>🎯 Pac-Man</h4>
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/398b19b1-9aae-4c1f-8bc0-d172a2c08d68" width="200" height="150" alt="Pac-Man Game" />
+<img src="https://media.giphy.com/media/NVBR6cLvUjV9C/giphy.gif" width="200" height="150" alt="Pac-Man Game" />
 </td>
 </tr>
 </table>
@@ -102,9 +102,9 @@ motto: "Building the future, one algorithm at a time!"
 
 <div align="center">
   <h4>🎮 More Retro Games Coming Soon! 🎮</h4>
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="80" />
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/80728820-e06b-4f96-9c9e-9df46f0cc0a5" width="300" height="100" />
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/de038172-e903-4951-926c-755878deb0b4" width="80" />
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100" />
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="200" height="100" />
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100" />
 </div>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
