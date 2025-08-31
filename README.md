@@ -205,7 +205,7 @@ motto: "Building the future, one algorithm at a time!"
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=subh-a-dip&layout=compact&theme=tokyonight&hide_border=true&background=0D1117&border_radius=20&langs_count=8" alt="Top Languages" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=subh-a-dip&theme=tokyonight&hide_border=true&background=0D1117&border_radius=20" alt="Coding Time" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=subh-a-dip&repo=subh-a-dip&theme=tokyonight&hide_border=true&background=0D1117&border_radius=20" alt="Featured Repo" />
 </div>
 
 <div align="center">
