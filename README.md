@@ -57,7 +57,7 @@
 name: Subhadip Bera
 education: "B.Tech in Computer Science & Engineering (Artificial Intelligence)"
 current_focus: ["Full Stack Development", "AI/ML", "Open Source"]
-learning: ["Python", "C++", "JavaScript", "ReactJS", "NodeJS", "AI & ML"]
+learning: ["Python", "C++", "JavaScript","MongoDB","API", "ReactJS", "NodeJS", "AI & ML"]
 collaboration: "Open Source Projects & AI/ML Projects"
 ask_me_about: ["Web Development", "AI/ML", "Programming", "Tech"]
 contact: "subhadipb667@gmail.com"
@@ -79,7 +79,13 @@ motto: "Building the future, one algorithm at a time!"
 <tr>
 <td align="center">
 <h4>🐍 Snake Game</h4>
-<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200" height="150" alt="Snake Game" />
+<a href="./snake-game.html" target="_blank">
+  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200" height="150" alt="Click to Play Snake Game!" />
+</a>
+<br>
+<a href="./snake-game.html" target="_blank">
+  <img src="https://img.shields.io/badge/PLAY%20NOW-4ecdc4?style=for-the-badge&logo=gamepad2&logoColor=white" alt="Play Snake Game" />
+</a>
 </td>
 <td align="center">
 <h4>🎲 Tetris</h4>
