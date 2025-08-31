@@ -51,7 +51,7 @@
             margin: 10px 0;
             display: none;
         }
-        .restart-btn {
+        .restart-btn, .start-btn {
             background: #4ecdc4;
             color: white;
             border: none;
@@ -60,10 +60,43 @@
             cursor: pointer;
             font-size: 16px;
             margin-top: 10px;
+        }
+        .restart-btn:hover, .start-btn:hover {
+            background: #45b7aa;
+        }
+        .restart-btn {
             display: none;
         }
-        .restart-btn:hover {
-            background: #45b7aa;
+        .mobile-controls {
+            display: none;
+            margin-top: 20px;
+            grid-template-columns: repeat(3, 60px);
+            grid-template-rows: repeat(3, 60px);
+            gap: 10px;
+            justify-content: center;
+        }
+        .control-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid #fff;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            user-select: none;
+        }
+        .control-btn:active {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        @media (max-width: 768px) {
+            .mobile-controls {
+                display: grid;
+            }
+            .controls {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -76,6 +109,18 @@
             Use Arrow Keys to Control the Snake<br>
             Eat the red apples to grow and score points!
         </div>
+        <div class="mobile-controls" id="mobileControls">
+            <div></div>
+            <div class="control-btn" onclick="changeDirection('up')">↑</div>
+            <div></div>
+            <div class="control-btn" onclick="changeDirection('left')">←</div>
+            <div></div>
+            <div class="control-btn" onclick="changeDirection('right')">→</div>
+            <div></div>
+            <div class="control-btn" onclick="changeDirection('down')">↓</div>
+            <div></div>
+        </div>
+        <button class="start-btn" id="startBtn" onclick="startGame()">Start Game</button>
         <div class="game-over" id="gameOver">Game Over! 🎮</div>
         <button class="restart-btn" id="restartBtn" onclick="restartGame()">Play Again</button>
     </div>
@@ -86,6 +131,7 @@
         const scoreElement = document.getElementById('score');
         const gameOverElement = document.getElementById('gameOver');
         const restartBtn = document.getElementById('restartBtn');
+        const startBtn = document.getElementById('startBtn');
 
         const gridSize = 20;
         const tileCount = canvas.width / gridSize;
@@ -97,7 +143,8 @@
         let dx = 0;
         let dy = 0;
         let score = 0;
-        let gameRunning = true;
+        let gameRunning = false;
+        let gameStarted = false;
 
         // Generate random food position
         function randomFood() {
@@ -124,9 +171,16 @@
             ctx.fillRect(food.x * gridSize, food.y * gridSize, gridSize - 2, gridSize - 2);
         }
 
+        // Start game
+        function startGame() {
+            gameRunning = true;
+            gameStarted = true;
+            startBtn.style.display = 'none';
+        }
+
         // Move snake
         function moveSnake() {
-            if (!gameRunning) return;
+            if (!gameRunning || !gameStarted) return;
 
             const head = {x: snake[0].x + dx, y: snake[0].y + dy};
 
@@ -171,14 +225,52 @@
             score = 0;
             scoreElement.textContent = score;
             gameRunning = true;
+            gameStarted = true;
             gameOverElement.style.display = 'none';
             restartBtn.style.display = 'none';
             randomFood();
         }
 
+        // Mobile touch controls
+        function changeDirection(direction) {
+            if (!gameRunning || !gameStarted) return;
+
+            const goingUp = dy === -1;
+            const goingDown = dy === 1;
+            const goingRight = dx === 1;
+            const goingLeft = dx === -1;
+
+            switch(direction) {
+                case 'up':
+                    if (!goingDown) {
+                        dx = 0;
+                        dy = -1;
+                    }
+                    break;
+                case 'down':
+                    if (!goingUp) {
+                        dx = 0;
+                        dy = 1;
+                    }
+                    break;
+                case 'left':
+                    if (!goingRight) {
+                        dx = -1;
+                        dy = 0;
+                    }
+                    break;
+                case 'right':
+                    if (!goingLeft) {
+                        dx = 1;
+                        dy = 0;
+                    }
+                    break;
+            }
+        }
+
         // Handle keyboard input
         document.addEventListener('keydown', (e) => {
-            if (!gameRunning) return;
+            if (!gameRunning || !gameStarted) return;
 
             const LEFT_KEY = 37;
             const RIGHT_KEY = 39;
@@ -217,6 +309,7 @@
 
         // Initialize game
         randomFood();
+        drawGame(); // Draw initial state
         setInterval(gameLoop, 100);
     </script>
 </body>
