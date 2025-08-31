@@ -291,6 +291,8 @@ motto: "Building the future, one algorithm at a time!"
   <h3>🎮 Experience My Coding Skills Through Gaming! 🎮</h3>
   <p>I built this Snake game from scratch using HTML5 Canvas and JavaScript.<br>
   It features responsive design, mobile touch controls, and smooth gameplay!</p>
+  <p><strong>To Play:</strong> Download the repository and run <code>start-game.bat</code> (Windows) or <code>python server.py</code><br>
+  Then visit <code>http://localhost:8000/snake-game.html</code> in your browser!</p>
 </div>
 
 <div align="center">
@@ -307,6 +309,7 @@ motto: "Building the future, one algorithm at a time!"
   <img src="https://img.shields.io/badge/Desktop-Arrow%20Keys-blue?style=flat-square" alt="Desktop Controls" />
   <img src="https://img.shields.io/badge/Mobile-Touch%20Controls-green?style=flat-square" alt="Mobile Controls" />
   <img src="https://img.shields.io/badge/Built%20with-HTML5%20%7C%20CSS3%20%7C%20JavaScript-orange?style=flat-square" alt="Technologies" />
+  <img src="https://img.shields.io/badge/Server-Python%20HTTP-blue?style=flat-square" alt="Server" />
 </div>
 
 <div align="center">
