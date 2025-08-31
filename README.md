@@ -290,18 +290,18 @@ motto: "Building the future, one algorithm at a time!"
 </div>
 
 <div align="center">
-  <iframe src="https://subh-a-dip.github.io/snake-game.html" 
+  <iframe src="https://subh-a-dip.github.io/subh-a-dip/snake-game.html" 
           width="500" 
           height="600" 
           frameborder="0" 
           style="border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
-    <p>Your browser doesn't support iframes. <a href="https://subh-a-dip.github.io/snake-game.html" target="_blank">Click here to play Snake Game!</a></p>
+    <p>Your browser doesn't support iframes. <a href="https://subh-a-dip.github.io/subh-a-dip/snake-game.html" target="_blank">Click here to play Snake Game!</a></p>
   </iframe>
 </div>
 
 <div align="center">
   <p style="color: #7c3aed; font-weight: bold; margin: 20px 0;">🎯 Challenge yourself and beat your high score! 🎯</p>
-  <a href="https://subh-a-dip.github.io/snake-game.html" target="_blank">
+  <a href="https://subh-a-dip.github.io/subh-a-dip/snake-game.html" target="_blank">
     <img src="https://img.shields.io/badge/Play_Full_Screen-FF6B6B?style=for-the-badge&logo=gamepad&logoColor=white" alt="Play Full Screen" />
   </a>
 </div>
