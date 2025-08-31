@@ -69,6 +69,36 @@ motto: "Building the future, one algorithm at a time!"
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
+<h2 align="center">🎮 Fun Zone - Interactive Games 🎮</h2>
+
+<div align="center">
+  <h3>🔥 Take a Break & Play Some Games! 🔥</h3>
+</div>
+
+<table align="center">
+<tr>
+<td align="center">
+<h4>🐍 Snake Game</h4>
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200" height="150" alt="Snake Game" />
+</td>
+<td align="center">
+<h4>🎲 Tetris</h4>
+<img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="200" height="150" alt="Tetris Game" />
+</td>
+<td align="center">
+<h4>🎯 Pac-Man</h4>
+<img src="https://media.giphy.com/media/NVBR6cLvUjV9C/giphy.gif" width="200" height="150" alt="Pac-Man Game" />
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <h4>🎮 More Retro Games Coming Soon! 🎮</h4>
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100" />
+</div>
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+
 <h2 align="center">🛠️ My Arsenal of Technologies 🛠️</h2>
 
 <div align="center">
