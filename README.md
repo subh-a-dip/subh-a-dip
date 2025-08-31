@@ -281,6 +281,31 @@ motto: "Building the future, one algorithm at a time!"
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=1000&color=7c3aed&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+✨;Let's+build+something+amazing+together!+🚀;Happy+Coding!+💻" alt="Typing SVG" />
 </div>
 
+<h2 align="center">🎮 Play Snake Game - Right Here! 🎮</h2>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="100" height="80" alt="Snake Game" />
+  <h3>🐍 Interactive Snake Game 🐍</h3>
+  <p><strong>Click the game below and use Arrow Keys to play!</strong></p>
+</div>
+
+<div align="center">
+  <iframe src="https://subh-a-dip.github.io/snake-game.html" 
+          width="500" 
+          height="600" 
+          frameborder="0" 
+          style="border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
+    <p>Your browser doesn't support iframes. <a href="https://subh-a-dip.github.io/snake-game.html" target="_blank">Click here to play Snake Game!</a></p>
+  </iframe>
+</div>
+
+<div align="center">
+  <p style="color: #7c3aed; font-weight: bold; margin: 20px 0;">🎯 Challenge yourself and beat your high score! 🎯</p>
+  <a href="https://subh-a-dip.github.io/snake-game.html" target="_blank">
+    <img src="https://img.shields.io/badge/Play_Full_Screen-FF6B6B?style=for-the-badge&logo=gamepad&logoColor=white" alt="Play Full Screen" />
+  </a>
+</div>
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Happy%20Coding!&fontSize=32&fontColor=fff&animation=twinkling&fontAlignY=70" width="100%"/>
 </div>

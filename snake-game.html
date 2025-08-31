@@ -3,174 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🐍 Snake Game - Play Now!</title>
+    <title>🐍 Snake Game</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            font-family: 'Arial', sans-serif;
-            padding: 20px;
+            font-family: Arial, sans-serif;
         }
-        
         .game-container {
             text-align: center;
             background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 20px;
+            padding: 20px;
+            border-radius: 15px;
             backdrop-filter: blur(10px);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            max-width: 500px;
-            width: 100%;
         }
-        
-        h1 {
-            color: #fff;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            font-size: 2.5em;
-        }
-        
-        .score {
-            color: #fff;
-            font-size: 24px;
-            margin: 20px 0;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-            font-weight: bold;
-        }
-        
+        h1 { color: #fff; margin-bottom: 15px; font-size: 2em; }
+        .score { color: #fff; font-size: 18px; margin: 10px 0; font-weight: bold; }
         canvas {
-            border: 3px solid #fff;
-            border-radius: 10px;
+            border: 2px solid #fff;
+            border-radius: 8px;
             background: #000;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
             display: block;
-            margin: 0 auto;
+            margin: 10px auto;
         }
-        
-        .controls {
-            color: #fff;
-            margin: 20px 0;
-            font-size: 14px;
-            line-height: 1.5;
-        }
-        
+        .controls { color: #fff; margin: 10px 0; font-size: 12px; }
         .btn {
             background: #4ecdc4;
             color: white;
             border: none;
-            padding: 15px 30px;
-            border-radius: 25px;
+            padding: 10px 20px;
+            border-radius: 20px;
             cursor: pointer;
-            font-size: 18px;
-            margin: 10px;
+            font-size: 14px;
+            margin: 5px;
             transition: all 0.3s;
-            font-weight: bold;
         }
-        
-        .btn:hover {
-            background: #45b7aa;
-            transform: translateY(-2px);
-        }
-        
-        .btn:active {
-            transform: translateY(0);
-        }
-        
-        .game-over {
-            color: #ff6b6b;
-            font-size: 24px;
-            margin: 20px 0;
-            font-weight: bold;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        }
-        
-        .mobile-controls {
-            display: none;
-            grid-template-columns: repeat(3, 70px);
-            grid-template-rows: repeat(3, 70px);
-            gap: 15px;
-            justify-content: center;
-            margin: 20px 0;
-        }
-        
-        .control-btn {
-            background: rgba(255, 255, 255, 0.2);
-            border: 2px solid #fff;
-            border-radius: 15px;
-            color: #fff;
-            font-size: 24px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            user-select: none;
-            transition: all 0.2s;
-            font-weight: bold;
-        }
-        
-        .control-btn:hover {
-            background: rgba(255, 255, 255, 0.3);
-        }
-        
-        .control-btn:active {
-            background: rgba(255, 255, 255, 0.5);
-            transform: scale(0.95);
-        }
-        
-        @media (max-width: 768px) {
-            .mobile-controls {
-                display: grid;
-            }
-            
-            canvas {
-                width: 100%;
-                max-width: 350px;
-                height: auto;
-            }
-            
-            h1 {
-                font-size: 2em;
-            }
-        }
-        
-        .hidden {
-            display: none !important;
-        }
+        .btn:hover { background: #45b7aa; }
+        .game-over { color: #ff6b6b; font-size: 18px; margin: 10px 0; font-weight: bold; }
+        .hidden { display: none !important; }
     </style>
 </head>
 <body>
     <div class="game-container">
         <h1>🐍 Snake Game</h1>
         <div class="score">Score: <span id="score">0</span></div>
-        <canvas id="gameCanvas" width="400" height="400"></canvas>
-        
-        <div class="controls">
-            <strong>Desktop:</strong> Use Arrow Keys<br>
-            <strong>Mobile:</strong> Use Touch Buttons<br>
-            🍎 Eat red apples to grow and score points!
-        </div>
-        
-        <div class="mobile-controls" id="mobileControls">
-            <div></div>
-            <button class="control-btn" data-direction="up">↑</button>
-            <div></div>
-            <button class="control-btn" data-direction="left">←</button>
-            <div></div>
-            <button class="control-btn" data-direction="right">→</button>
-            <div></div>
-            <button class="control-btn" data-direction="down">↓</button>
-            <div></div>
-        </div>
-        
+        <canvas id="gameCanvas" width="400" height="300"></canvas>
+        <div class="controls">Use Arrow Keys to move • Eat red apples to grow!</div>
         <button class="btn" id="startBtn">🎮 Start Game</button>
         <div class="game-over hidden" id="gameOver">Game Over! 🎮</div>
         <button class="btn hidden" id="restartBtn">🔄 Play Again</button>
@@ -186,7 +69,7 @@
                 this.startBtn = document.getElementById('startBtn');
                 this.restartBtn = document.getElementById('restartBtn');
                 
-                this.gridSize = 20;
+                this.gridSize = 15;
                 this.tileCount = this.canvas.width / this.gridSize;
                 
                 this.reset();
@@ -213,62 +96,39 @@
                 let newFood;
                 do {
                     newFood = {
-                        x: Math.floor(Math.random() * this.tileCount),
-                        y: Math.floor(Math.random() * this.tileCount)
+                        x: Math.floor(Math.random() * (this.canvas.width / this.gridSize)),
+                        y: Math.floor(Math.random() * (this.canvas.height / this.gridSize))
                     };
                 } while (this.snake.some(segment => segment.x === newFood.x && segment.y === newFood.y));
-                
                 return newFood;
             }
             
             draw() {
-                // Clear canvas
                 this.ctx.fillStyle = '#000';
                 this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
                 
-                // Draw snake
                 this.ctx.fillStyle = '#4ecdc4';
                 this.snake.forEach((segment, index) => {
-                    if (index === 0) {
-                        // Snake head - slightly different color
-                        this.ctx.fillStyle = '#45b7aa';
-                    } else {
-                        this.ctx.fillStyle = '#4ecdc4';
-                    }
-                    this.ctx.fillRect(
-                        segment.x * this.gridSize + 1,
-                        segment.y * this.gridSize + 1,
-                        this.gridSize - 2,
-                        this.gridSize - 2
-                    );
+                    if (index === 0) this.ctx.fillStyle = '#45b7aa';
+                    else this.ctx.fillStyle = '#4ecdc4';
+                    this.ctx.fillRect(segment.x * this.gridSize + 1, segment.y * this.gridSize + 1, this.gridSize - 2, this.gridSize - 2);
                 });
                 
-                // Draw food
                 this.ctx.fillStyle = '#ff6b6b';
-                this.ctx.fillRect(
-                    this.food.x * this.gridSize + 1,
-                    this.food.y * this.gridSize + 1,
-                    this.gridSize - 2,
-                    this.gridSize - 2
-                );
+                this.ctx.fillRect(this.food.x * this.gridSize + 1, this.food.y * this.gridSize + 1, this.gridSize - 2, this.gridSize - 2);
             }
             
             update() {
                 if (!this.gameRunning) return;
                 
-                const head = {
-                    x: this.snake[0].x + this.dx,
-                    y: this.snake[0].y + this.dy
-                };
+                const head = { x: this.snake[0].x + this.dx, y: this.snake[0].y + this.dy };
                 
-                // Check wall collision
-                if (head.x < 0 || head.x >= this.tileCount || 
-                    head.y < 0 || head.y >= this.tileCount) {
+                if (head.x < 0 || head.x >= this.canvas.width / this.gridSize || 
+                    head.y < 0 || head.y >= this.canvas.height / this.gridSize) {
                     this.gameOver();
                     return;
                 }
                 
-                // Check self collision
                 if (this.snake.some(segment => segment.x === head.x && segment.y === head.y)) {
                     this.gameOver();
                     return;
@@ -276,7 +136,6 @@
                 
                 this.snake.unshift(head);
                 
-                // Check food collision
                 if (head.x === this.food.x && head.y === this.food.y) {
                     this.score += 10;
                     this.scoreElement.textContent = this.score;
@@ -300,69 +159,23 @@
             
             changeDirection(newDx, newDy) {
                 if (!this.gameRunning) return;
-                
-                // Prevent reverse direction
                 if (this.dx === -newDx && this.dy === -newDy) return;
-                
                 this.dx = newDx;
                 this.dy = newDy;
             }
             
             setupEventListeners() {
-                // Start button
                 this.startBtn.addEventListener('click', () => this.start());
+                this.restartBtn.addEventListener('click', () => { this.reset(); this.start(); });
                 
-                // Restart button
-                this.restartBtn.addEventListener('click', () => {
-                    this.reset();
-                    this.start();
-                });
-                
-                // Keyboard controls
                 document.addEventListener('keydown', (e) => {
                     if (!this.gameRunning) return;
-                    
                     switch(e.key) {
-                        case 'ArrowUp':
-                            e.preventDefault();
-                            this.changeDirection(0, -1);
-                            break;
-                        case 'ArrowDown':
-                            e.preventDefault();
-                            this.changeDirection(0, 1);
-                            break;
-                        case 'ArrowLeft':
-                            e.preventDefault();
-                            this.changeDirection(-1, 0);
-                            break;
-                        case 'ArrowRight':
-                            e.preventDefault();
-                            this.changeDirection(1, 0);
-                            break;
+                        case 'ArrowUp': e.preventDefault(); this.changeDirection(0, -1); break;
+                        case 'ArrowDown': e.preventDefault(); this.changeDirection(0, 1); break;
+                        case 'ArrowLeft': e.preventDefault(); this.changeDirection(-1, 0); break;
+                        case 'ArrowRight': e.preventDefault(); this.changeDirection(1, 0); break;
                     }
-                });
-                
-                // Mobile controls
-                document.querySelectorAll('.control-btn').forEach(btn => {
-                    btn.addEventListener('click', () => {
-                        if (!this.gameRunning) return;
-                        
-                        const direction = btn.dataset.direction;
-                        switch(direction) {
-                            case 'up':
-                                this.changeDirection(0, -1);
-                                break;
-                            case 'down':
-                                this.changeDirection(0, 1);
-                                break;
-                            case 'left':
-                                this.changeDirection(-1, 0);
-                                break;
-                            case 'right':
-                                this.changeDirection(1, 0);
-                                break;
-                        }
-                    });
                 });
             }
             
@@ -372,13 +185,8 @@
             }
         }
         
-        // Initialize game
         const game = new SnakeGame();
-        
-        // Game loop
-        setInterval(() => {
-            game.gameLoop();
-        }, 120);
+        setInterval(() => game.gameLoop(), 150);
     </script>
 </body>
 </html>
