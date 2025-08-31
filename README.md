@@ -79,13 +79,9 @@ motto: "Building the future, one algorithm at a time!"
 <tr>
 <td align="center">
 <h4>🐍 Snake Game</h4>
-<a href="./snake-game.html" target="_blank">
-  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200" height="150" alt="Click to Play Snake Game!" />
-</a>
+<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200" height="150" alt="Snake Game Animation" />
 <br>
-<a href="./snake-game.html" target="_blank">
-  <img src="https://img.shields.io/badge/PLAY%20NOW-4ecdc4?style=for-the-badge&logo=gamepad2&logoColor=white" alt="Play Snake Game" />
-</a>
+<img src="https://img.shields.io/badge/Download%20Repository-4ecdc4?style=for-the-badge&logo=download&logoColor=white" alt="Download to Play" />
 </td>
 <td align="center">
 <h4>🎲 Tetris</h4>
@@ -296,15 +292,11 @@ motto: "Building the future, one algorithm at a time!"
 </div>
 
 <div align="center">
-  <a href="./snake-game.html" target="_blank">
-    <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="300" height="200" alt="Click to Play Snake Game!" style="border-radius: 15px; border: 3px solid #4ecdc4;" />
-  </a>
+  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="300" height="200" alt="Snake Game Preview" style="border-radius: 15px; border: 3px solid #4ecdc4;" />
 </div>
 
 <div align="center" style="margin: 20px 0;">
-  <a href="./snake-game.html" target="_blank">
-    <img src="https://img.shields.io/badge/🎮%20PLAY%20SNAKE%20GAME-4ecdc4?style=for-the-badge&logoColor=white&labelColor=2c3e50" alt="Play Snake Game" />
-  </a>
+  <img src="https://img.shields.io/badge/💾%20DOWNLOAD%20TO%20PLAY-4ecdc4?style=for-the-badge&logoColor=white&labelColor=2c3e50" alt="Download Repository" />
   <br><br>
   <img src="https://img.shields.io/badge/Desktop-Arrow%20Keys-blue?style=flat-square" alt="Desktop Controls" />
   <img src="https://img.shields.io/badge/Mobile-Touch%20Controls-green?style=flat-square" alt="Mobile Controls" />
