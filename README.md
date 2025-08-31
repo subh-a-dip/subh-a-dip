@@ -69,38 +69,6 @@ motto: "Building the future, one algorithm at a time!"
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-<h2 align="center">🎮 Fun Zone - Interactive Games 🎮</h2>
-
-<div align="center">
-  <h3>🔥 Take a Break & Play Some Games! 🔥</h3>
-</div>
-
-<table align="center">
-<tr>
-<td align="center">
-<h4>🐍 Snake Game</h4>
-<img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="200" height="150" alt="Snake Game Animation" />
-<br>
-<img src="https://img.shields.io/badge/Download%20Repository-4ecdc4?style=for-the-badge&logo=download&logoColor=white" alt="Download to Play" />
-</td>
-<td align="center">
-<h4>🎲 Tetris</h4>
-<img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="200" height="150" alt="Tetris Game" />
-</td>
-<td align="center">
-<h4>🎯 Pac-Man</h4>
-<img src="https://media.giphy.com/media/NVBR6cLvUjV9C/giphy.gif" width="200" height="150" alt="Pac-Man Game" />
-</td>
-</tr>
-</table>
-
-<div align="center">
-  <h4>🎮 More Retro Games Coming Soon! 🎮</h4>
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="100" />
-</div>
-
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-
 <h2 align="center">🛠️ My Arsenal of Technologies 🛠️</h2>
 
 <div align="center">
@@ -277,32 +245,7 @@ motto: "Building the future, one algorithm at a time!"
   <img src="https://img.shields.io/github/stars/subh-a-dip?color=7c3aed&style=for-the-badge&label=Stars" alt="Stars" />
 </div>
 
-<h2 align="center">🐍 Play My Snake Game! 🐍</h2>
 
-<div align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/cc4fe88c-7f7a-41d8-a25e-8bc6ce34e46d" width="100%" height="3" />
-</div>
-
-<div align="center">
-  <h3>🎮 Experience My Coding Skills Through Gaming! 🎮</h3>
-  <p>I built this Snake game from scratch using HTML5 Canvas and JavaScript.<br>
-  It features responsive design, mobile touch controls, and smooth gameplay!</p>
-  <p><strong>To Play:</strong> Download the repository and run <code>start-game.bat</code> (Windows) or <code>python server.py</code><br>
-  Then visit <code>http://localhost:8000/snake-game.html</code> in your browser!</p>
-</div>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="300" height="200" alt="Snake Game Preview" style="border-radius: 15px; border: 3px solid #4ecdc4;" />
-</div>
-
-<div align="center" style="margin: 20px 0;">
-  <img src="https://img.shields.io/badge/💾%20DOWNLOAD%20TO%20PLAY-4ecdc4?style=for-the-badge&logoColor=white&labelColor=2c3e50" alt="Download Repository" />
-  <br><br>
-  <img src="https://img.shields.io/badge/Desktop-Arrow%20Keys-blue?style=flat-square" alt="Desktop Controls" />
-  <img src="https://img.shields.io/badge/Mobile-Touch%20Controls-green?style=flat-square" alt="Mobile Controls" />
-  <img src="https://img.shields.io/badge/Built%20with-HTML5%20%7C%20CSS3%20%7C%20JavaScript-orange?style=flat-square" alt="Technologies" />
-  <img src="https://img.shields.io/badge/Server-Python%20HTTP-blue?style=flat-square" alt="Server" />
-</div>
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=20&pause=1000&color=7c3aed&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!+✨;Let's+build+something+amazing+together!+🚀;Happy+Coding!+💻" alt="Typing SVG" />
