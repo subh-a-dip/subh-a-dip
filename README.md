@@ -233,13 +233,13 @@ motto: "Building the future, one algorithm at a time!"
 </div>
 
 <div align="center">
-  <a href="https://linkedin.com/in/your-profile">
+  <a href="https://www.linkedin.com/in/subhadip-bera-178395318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn" />
   </a>
-  <a href="https://twitter.com/your-handle">
+  <a href="https://x.com/im_Subha21?t=ZegP70HFSMkmVLXfk6KznQ&s=08">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter" />
   </a>
-  <a href="https://instagram.com/your-handle">
+  <a href="https://www.instagram.com/invites/contact/?igsh=z84l2rc4z98d&utm_content=kpe8kbt">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" alt="Instagram" />
   </a>
   <a href="https://your-portfolio.com">
