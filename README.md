@@ -285,23 +285,23 @@ motto: "Building the future, one algorithm at a time!"
 
 <div align="center">
   <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="100" height="80" alt="Snake Game" />
-  <h3>🐍 Interactive Snake Game 🐍</h3>
-  <p><strong>Click the game below and use Arrow Keys to play!</strong></p>
+  <h3>🐍 Interactive 3D Snake Game 🐍</h3>
+  <p><strong>Advanced Snake with levels, particles & high scores!</strong></p>
 </div>
 
 <div align="center">
-  <iframe src="https://subh-a-dip.github.io/subh-a-dip/snake-game.html" 
-          width="500" 
-          height="600" 
+  <iframe src="https://subh-a-dip.github.io/subh-a-dip/snake/snake_game.html" 
+          width="650" 
+          height="700" 
           frameborder="0" 
           style="border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);">
-    <p>Your browser doesn't support iframes. <a href="https://subh-a-dip.github.io/subh-a-dip/snake-game.html" target="_blank">Click here to play Snake Game!</a></p>
+    <p>Your browser doesn't support iframes. <a href="https://subh-a-dip.github.io/subh-a-dip/snake/snake_game.html" target="_blank">Click here to play 3D Snake Game!</a></p>
   </iframe>
 </div>
 
 <div align="center">
   <p style="color: #7c3aed; font-weight: bold; margin: 20px 0;">🎯 Challenge yourself and beat your high score! 🎯</p>
-  <a href="https://subh-a-dip.github.io/subh-a-dip/snake-game.html" target="_blank">
+  <a href="https://subh-a-dip.github.io/subh-a-dip/snake/snake_game.html" target="_blank">
     <img src="https://img.shields.io/badge/Play_Full_Screen-FF6B6B?style=for-the-badge&logo=gamepad&logoColor=white" alt="Play Full Screen" />
   </a>
 </div>
