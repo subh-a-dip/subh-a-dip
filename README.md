@@ -49,22 +49,69 @@
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-<h3 align="center">⚡ Quick Facts About Me ⚡</h3>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=⚡+Quick+Facts+About+Me+⚡;Digital+Architect+%26+Code+Wizard+🧙‍♂️;AI+Enthusiast+%26+Full+Stack+Developer+💻" alt="Quick Facts" />
+</div>
 
 <div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="50" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="50" />
+</div>
 
+<table align="center" style="border: none;">
+<tr>
+<td align="center" style="border: none; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 10px;">
+
+**🎯 CURRENT MISSION**
 ```yaml
-name: Subhadip Bera
-education: "B.Tech in Computer Science & Engineering (Artificial Intelligence)"
-current_focus: ["Full Stack Development", "AI/ML", "Open Source"]
-learning: ["Python", "C++", "JavaScript","MongoDB","API", "ReactJS", "NodeJS", "AI & ML"]
-collaboration: "Open Source Projects & AI/ML Projects"
-ask_me_about: ["Web Development", "AI/ML", "Programming", "Tech"]
-contact: "subhadipb667@gmail.com"
-fun_fact: "I turn coffee into code and dreams into reality! ☕→💻→🚀"
-motto: "Building the future, one algorithm at a time!"
+role: "Full Stack Developer & AI Enthusiast"
+focus: ["Web Development", "Machine Learning", "Open Source"]
+status: "Building the future, one line at a time! 🚀"
 ```
 
+</td>
+<td align="center" style="border: none; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 20px; margin: 10px;">
+
+**🎓 ACADEMIC JOURNEY**
+```yaml
+degree: "B.Tech CSE (AI)"
+institution: "Tech University"
+specialization: "Artificial Intelligence"
+year: "2024"
+```
+
+</td>
+</tr>
+<tr>
+<td align="center" style="border: none; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 20px; margin: 10px;">
+
+**💻 TECH ARSENAL**
+```yaml
+languages: ["Python", "JavaScript", "C++", "Java"]
+frameworks: ["React", "Node.js", "Django", "FastAPI"]
+tools: ["Docker", "AWS", "MongoDB", "PostgreSQL"]
+ai_ml: ["TensorFlow", "PyTorch", "Scikit-learn"]
+```
+
+</td>
+<td align="center" style="border: none; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 15px; padding: 20px; margin: 10px;">
+
+**🌟 PERSONAL STATS**
+```yaml
+contact: "subhadipb667@gmail.com"
+location: "India 🇮🇳"
+hobbies: ["Coding", "Gaming", "Tech Blogs"]
+fun_fact: "I turn ☕ into code!"
+motto: "Dream → Code → Deploy → Repeat 🔄"
+```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" />
 </div>
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
