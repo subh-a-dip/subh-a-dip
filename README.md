@@ -66,7 +66,7 @@
 **🎯 CURRENT MISSION**
 ```yaml
 role: "Full Stack Developer & AI Enthusiast"
-focus: ["Web Development", "Machine Learning", "Open Source"]
+focus: ["Web Development","Artificial Intelligence", "Machine Learning", "Open Source"]
 status: "Building the future, one line at a time! 🚀"
 ```
 
@@ -76,9 +76,9 @@ status: "Building the future, one line at a time! 🚀"
 **🎓 ACADEMIC JOURNEY**
 ```yaml
 degree: "B.Tech CSE (AI)"
-institution: "Tech University"
+institution: "Rcc Institute of Information Technology"
 specialization: "Artificial Intelligence"
-year: "2024"
+year: "2023-2027"
 ```
 
 </td>
