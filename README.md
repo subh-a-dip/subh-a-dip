@@ -238,37 +238,9 @@ motto: "Dream → Code → Deploy → Repeat 🔄"
 
 </div>
 
-<h2 align="center">📊 GitHub Analytics Dashboard 📊</h2>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100" />
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100" />
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100" />
-</div>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=subh-a-dip&show_icons=true&theme=tokyonight&hide_border=true&background=0D1117&border_radius=20" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=subh-a-dip&theme=tokyonight&hide_border=true&background=0D1117&border_radius=20" alt="GitHub Streak" />
-</div>
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=subh-a-dip&layout=compact&theme=tokyonight&hide_border=true&background=0D1117&border_radius=20&langs_count=8" alt="Top Languages" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=subh-a-dip&repo=subh-a-dip&theme=tokyonight&hide_border=true&background=0D1117&border_radius=20" alt="Featured Repo" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=subh-a-dip&theme=tokyonight" width="100%" alt="Profile Summary" />
-</div>
-
-<h2 align="center">🏆 Achievement Showcase 🏆</h2>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=subh-a-dip&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=1&column=7" alt="GitHub Trophies" />
-</div>
-
-<div align="center">
-  <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/cc4fe88c-7f7a-41d8-a25e-8bc6ce34e46d" width="100%" height="5" />
-</div>
 
 
 
